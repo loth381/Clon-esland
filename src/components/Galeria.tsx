@@ -1,9 +1,10 @@
 import 'photoswipe/style.css';
 
 import Button from '@/components/Button.tsx';
+import { useGallery } from "@/hooks/useGallery"
 import '@/components/styles/Galeria.css';
-import { useGallery } from "@/hooks/useGallery";
 
+import { type Masory } from "@/types/gallery"
 
 export default function Galeria({i18n,edicion}:{i18n:any,edicion:string}) {
   
